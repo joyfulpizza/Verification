@@ -1,0 +1,14 @@
+{
+  "name": "double-captcha-app",
+  "version": "1.0.0",
+  "description": "Bot verification with 2 captchas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "svg-captcha": "^1.4.0"
+  }
+}
